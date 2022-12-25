@@ -1,0 +1,372 @@
+@media screen and (max-width:1018px) {
+
+
+   h1 {
+      font-size: 3.75rem;
+   }
+
+   h2 {
+      font-size: 2.5rem;
+   }
+
+
+   .text-part p {
+      font-size: 1.25rem;
+   }
+
+   .questions-box p {
+      font-size: 1.25rem;
+   }
+
+
+   .logo {
+      width: 40%;
+   }
+
+
+   .footer-container {
+      width: 70%;
+   }
+
+
+
+   .input-heading h1 {
+      width: 60%;
+   }
+
+   .search-section {
+      width: 100%;
+   }
+
+
+}
+
+
+
+
+@media screen and (max-width: 863px) {
+
+
+
+   
+   .logo {
+      width: 50%;
+      /* height: 10%; */
+  }
+
+   .small nav p{
+      width: 22%;
+   }
+
+   h1{
+      font-size: 3rem;
+   }
+
+
+   h2 {
+      font-size: 2.25rem;
+   }
+
+
+   .email-again p{
+      width: 50%;
+      font-size: x-large;
+   }
+
+   .question-section h2{
+      font-size: 2.5rem;
+   }
+
+
+
+  
+   
+   .questions-links p{
+      font-size: 1.25rem;
+   }
+
+   .questions-box{
+      height: 12.5%;
+      padding-inline-start: 22px;
+   }
+
+
+
+   .search-section {
+      width: 100%;
+      gap: 10px;
+   }
+
+   .input-heading h1 {
+      width: 75%;
+      
+   }
+
+   .search-section input{
+      width: 60%;
+      border-radius: 4px;
+      height: auto;
+   }
+  
+
+   .btn-search{
+      padding: 10px 26px;
+      border-radius:  4px;
+      height: auto;
+      font-size: 0.9rem;
+      text-align: center;
+  }
+
+ 
+
+
+   .live-pic-part{
+      width: 40vw;
+      justify-content: flex-start;
+  }
+
+   .live-pic-part img {
+      margin-block: 1vh;
+      width: 100%;
+   }
+
+   .text-part {
+      width: 38%;
+      height: 37vh;
+     
+      gap: 20px;
+
+   }
+
+   .tv-section{
+
+         padding-block: 40px;
+         flex-direction: column;
+         gap:1px
+   }
+
+
+   .text-part{
+      width: 100%;
+      height: 70%;
+   }
+
+   .text-part, h2,.text-part p{
+      width: 100%;
+      text-align: center;
+   }
+
+   .live-pic-part{
+      justify-content: center;
+      align-content: center;
+      width: 90%;
+   }
+
+   .live-pic-part img{
+      width: 80%;
+      height: 90%;
+   }
+
+
+   .questions-links{
+      width: 80%;
+      height: 50%;
+   }
+
+
+   .search-section{
+      height: 20vh;
+      padding-top: 20px;
+      flex-direction: column;
+   }
+   
+
+   .question-section{
+      height: 150vh;
+      gap: 28px;
+
+   }
+
+
+
+   .footer-container {
+      width: 80%;
+   }
+
+}
+
+@media screen and (max-width: 770px) {
+
+   .main-section {
+      height: 100vh;
+   }
+
+
+   .btn-sign {
+      padding: 7px 18px;
+      background-color: #e50914;
+      color: white;
+      border-radius: 4px;
+  }
+
+   .logo {
+      width: 55%;
+  }
+
+   .footer-container {
+      width: 84%;
+   }
+
+   .input-heading h4{
+      width: 55%;
+   }
+
+
+   .items-grid{
+      grid-template-columns:repeat(3,1fr);
+      grid-template-rows: repeat(6,1fr) ;
+
+   }
+
+   .questions-links{
+      width: 85%;
+   }
+
+   .btn-search {
+      text-align: center;
+      padding: auto;
+      /* line-height: 52px; */
+      /* font-size: ; */
+
+   }
+
+   .email-again p{
+      width: 77%;
+   }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+   .search-section input {
+      width: 70%;
+     }
+  
+   .logo{
+      width: 100%;
+   }
+
+   .main-section {
+      height: 100vh;
+   }
+
+   .img-section {
+      width: 50%;
+   }
+
+   .btn-section {
+      width: 80%;
+     
+  }
+
+
+.email-again p{
+   width: 80%;
+
+}
+
+.question-section{
+   min-height: 120vh;
+}
+
+.question-section h2{
+   width: 80%;
+}
+
+   .questions-links {
+      width: 100%;
+   }
+
+
+   .items-grid{
+      grid-template-columns:repeat(2,1fr);
+      grid-template-rows: repeat(9,1fr) ;
+
+   }
+
+   .footer-btn{
+      width: 100%;
+   }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+   header {
+      gap: 0px;
+  }
+
+
+  .search-section input {
+   width: 70%;
+  }
+
+   .btn-sign {
+      padding: 6px 6px;
+      background-color: #e50914;
+      font-size: small;
+      color: white;
+      border-radius: 2px;
+  }
+
+  .img-section {
+   width: 50%;
+   margin: 15px 15px;
+
+}
+
+.img-section img{
+}
+
+.btn-section {
+   width: 90%;
+   margin: 15px 15px;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 380px) {
+
+
+   h1{
+      font-size: 2rem;
+      width: 100%;
+   }
+
+
+
+   .main-section {
+      height: 115vh;
+   }
+
+   .input-heading h3{
+      font-size: large;
+      width: 100%;
+   }
+
+   .input-heading h4{
+
+      width: 90%;
+   }
+
+
+   .footer-container {
+      height: 80vh;
+   }
+
+}
